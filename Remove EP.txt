@@ -1,2 +1,0 @@
-$noop(Same as single but with EP)
-$eq(%releasetype%,EP)$set(album,$trim(%album%, EP)))
