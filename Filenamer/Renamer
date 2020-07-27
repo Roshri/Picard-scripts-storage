@@ -1,0 +1,3 @@
+$replace([%date%],-,.) $if(%album%,%album%) 
+$if(%catalognumber%,[%catalognumber%])/
+$if($gt(%totaldiscs%,1),%discnumber%-,)$if($and(%albumartist%,%tracknumber%),$num(%tracknumber%,2),).%title%
