@@ -1,0 +1,3 @@
+$noop(For releases that make use of the Special Purpose Artist [dialogue], when there is a more accurate data available in the album artist field, pull it from there)
+$set(artist,$replace(%artist%,[dialogue],%albumartist%))
+$set(artistsort,$replace(%artistsort%,[dialogue],%albumartist%))

@@ -1,0 +1,5 @@
+$noop(Removes unnecessary space from CV. credits)
+$set(artist,$replace(%artist%, \(,\())
+$set(albumartist,$replace(%albumartist%, \(,\())
+$set(artistsort,$replace(%artistsort%, \(,\())
+$set(albumartistsort,$replace(%albumartistsort%, \(,\())

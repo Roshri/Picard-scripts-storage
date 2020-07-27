@@ -1,0 +1,2 @@
+$noop(This script removes the disambiguation in single releases from the Album field)
+$if($in(%releasetype%,single),$set(album,$trim(%album%,\(single\))))
