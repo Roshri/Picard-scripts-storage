@@ -1,0 +1,1 @@
+$set(album,$if(%_releasecomment%,%album% [$title(%_releasecomment%)],%album%))
