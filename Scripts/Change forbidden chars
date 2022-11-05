@@ -1,0 +1,6 @@
+$set(album,$replace(%album%,/,⁄))
+$set(album,$replace(%album%,:,：))
+$set(album,$replace(%album%,?,？))
+$set(title,$replace(%title%,/,⁄))
+$set(title,$replace(%title%,:,：))
+$set(title,$replace(%title%,?,？))
